@@ -1,12 +1,12 @@
 import javax.swing.*;
-
+//
 public class SnakeGame {
-    JFrame frame; // initialize frame
-    SnakeGame(){
+  JFrame frame; // initialize frame
+  SnakeGame(){
         frame=new JFrame(); // create new frame
-
-        Board board=new Board(); // new board gets created and board function runs in background
-
+//
+       Board board=new Board(); // new board gets created and board function runs in background
+//
         frame.add(board); // added board to frame
         frame.setVisible(true); // set visibility
         frame.setTitle("Snake Game"); // Given title to the frame

@@ -90,7 +90,7 @@ public class Board extends JPanel implements ActionListener{ //behaves like Jpan
         }
     }
     public void checkCollision(){  // to check collison of snake or touch the boundary of the board
-        for(int z=0;z<dot;z++){
+        for(int z=1;z<dot;z++){
             if((z>3)&&(x[0]==x[z])&&(y[0]==y[z])){  // z>3 because we need more than 3 dots to gets collided with itself
                 inGame=false;  // as soon as it collides in game gets false which was true initially and we are out of the game
             }
